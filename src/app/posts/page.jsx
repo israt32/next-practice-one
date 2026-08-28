@@ -7,7 +7,9 @@ const PostsPage = async() => {
   return (
     <div>
       <h2>all my posts are here</h2>
-
+      {
+        posts.map(post => <div key={post.id}></div>)
+      }
     </div>
   );
 };
