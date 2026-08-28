@@ -10,6 +10,7 @@ const PostsPage = async() => {
       {
         posts.map(post => <div key={post.id}>
           <h1>this is new posts</h1>
+          <p>post descriptions</p>
         </div>)
       }
     </div>
