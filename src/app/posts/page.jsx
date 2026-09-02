@@ -8,6 +8,7 @@ const PostsPage = async() => {
     <div>
       <h2>all my posts are here</h2>
       <p>read the file here</p>
+      <p>road map</p>
       {
         posts.map(post => <div key={post.id}>
           <h1>this is new posts</h1>
